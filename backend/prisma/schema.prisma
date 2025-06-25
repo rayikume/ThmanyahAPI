@@ -19,7 +19,7 @@ model ItunesResult {
   trackId   Int     @unique
   artistName String
   trackName  String
-  artworkUrl100 String
+  artworkUrl String
   previewUrl String?
   createdAt  DateTime @default(now())
 }
